@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-05-15 20:01:28
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-05-16 00:32:58
+* @Last Modified time: 2018-05-16 18:14:06
 */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
 	margin:0;
@@ -30,13 +30,7 @@ section.left_part{
 	padding: 86px 15px 30px 30px;
 }
 
-section.right_part{
-	width: 640px;
-	height: 100%;
-	float: left;
-}
-
-h3{
+section.left_part h3{
 	width: 244px;
 	height: 36px;
 	padding-left: 32px;
@@ -59,12 +53,12 @@ h3{
 }
 
 i{
+	display: block;
 	color: black;
 	width: 28px;
 	height: 21px;
 	padding-top: 7px;
 	border-radius: 8px;
-	line-height: 28px;
 	text-align: center;
 	background-color: #fff;
 	margin-right: 12px;
@@ -252,4 +246,178 @@ section .arrow .part4{
 	position: relative;
 	left: 12px;
 	top:-74px;
+}
+
+section .like_height{
+	width: 100%;
+	height: 52px;
+}
+
+section .like_height iframe{
+	border: 0;
+	width: 60px;
+}
+
+/* 左侧部分完成，下为右侧部分 */
+
+section.right_part{
+	width: 560px;
+	height: 1275px;
+	float: left;
+	padding: 75px 40px 0 40px;
+}
+
+section.right_part h1{
+	color: black;
+	font-size: 40px;
+	margin-bottom: 12px;
+}
+
+section.right_part h2{
+	font-size: 16px;
+	color: black;
+	font-weight: normal;
+}
+
+section.right_part h3{
+	display: inline-block;
+	font-size: 23px;
+	color: black;
+}
+
+section.right_part > section{
+	width: 100%;
+}
+
+section.right_part > section{
+	padding-top: 10px;
+}
+
+section.right_part .line{
+	display: inline-block;
+	height: 10px;
+	position: relative;
+	top: -2px;
+}
+
+section.right_part .line_1{
+	
+	background-color: #eb7d04;
+	width: 242px;
+}
+
+section.right_part .line_2{
+	background-color: #8fb82c;
+	width: 134px;
+}
+
+section.right_part .line_3{
+	background-color: #e46e6e;
+	width: 231px;
+}
+
+section.right_part .line_4{
+	background-color: #34a6d1;
+	width: 259px;
+}
+
+section.right_part .line_5{
+	background-color: #34a6d1;
+	width: 249px;
+}
+
+section.right_part article{
+	font-size: 15px;
+	color: #808085;
+}
+section.right_part article:after{ content:"."; height:0; visibility:hidden; display:block; clear:both; }
+
+section.right_part article .topic{
+	float: left;
+}
+
+section.right_part article b{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: #808085;
+	position: relative;
+	top: -1px;
+}
+
+section.right_part article h4{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+section.right_part article .content{
+	float: left;
+	width: 472px;
+}
+
+section.right_part .pull_right{
+	padding-left: 34px;
+}
+
+section.right_part .pull_right p{
+	display: inline-block;
+	width: 511px;
+}
+
+section.right_part b.hollow{
+	background-color: white;
+	border:1px solid #808085;
+}
+
+section.right_part u{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-color: #fda85c;
+	float: left;
+	position: relative;
+	top: 2px;
+	margin:8px 20px 0 0;
+}
+
+section.right_part p.org{
+	display: inline-block;
+	margin: 8px 0px;
+	color: #fda85c;
+}
+
+section.right_part p span{
+	display: inline-block;
+	width: 30px;
+}
+
+section.right_part table{
+	color: #808085;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+section.right_part table td{
+	text-align: center;
+	padding:0 16px;
+	height: 22px;
+	line-height: 22px;
+}
+
+section.right_part div.one_ln{
+	height: 25px;
+}
+
+section.right_part div.one_ln u{
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #808085;
+	margin-right: 8px;
+}
+
+section.right_part div.one_ln p{
+	line-height: 26px;
 }
